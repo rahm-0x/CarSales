@@ -23,7 +23,7 @@ const cars = [
   {
   id: 3,
   make: 'BMW',
-  model: 'S1000RR',
+  model: 'S 1000 R',
   mileage: '10,000',
   price: 18500,
   image: 'https://www.bmwpap.gr/image/cache/data/product/BMW/2023/S%201000%20RR/BLACK/bmw-s-1000-rr-black-1-1-2-1400x1200.jpg',

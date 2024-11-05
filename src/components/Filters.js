@@ -18,6 +18,22 @@ const yamahaModels = [
   'Super Tenere ES', 'MT-10 SP', 'YZF R1 1000', 'YZF R6'
 ];
 
+const hondaModels = [
+  'TMX 125 Alpha', 'Dio', 'BeAT', 'Genio 110', 'XRM125 DSX', 'RS125 Fi', 
+  'XRM125 Motard', 'TMX Supremo 150', 'Click 125', 'XR150L', 'CLICK160', 
+  'AirBlade 160', 'CRF150L', 'PCX 160', 'CBR150R', 'ADV 160', 'CRF300L', 
+  'CRF300 Rally', 'CB500F', 'CBR500R', 'CB500X', 'Rebel 500', 'CL500', 
+  'CB650R', 'CBR650R', 'Transalp XL750', 'Rebel 1100', 'X-ADV 750', 
+  'CB1000R', 'Africa Twin', 'Africa Twin Adventure Sports', 
+  'CBR1000RR-R Fireblade SP', 'Gold Wing 1800'
+];
+
+const bmwModels = [
+  'G 310 R', 'G 310 GS', 'C 400 GT', 'F 750 GS', 'F 900 R', 'F 850 GS',
+  'F 900 XR', 'R nine T Pure 1200', 'R nine T Scrambler 1200', 
+  'R nine T Urban G/S 1200', 'R nine T 1200', 'S 1000 R', 'R 1250 GS', 
+  'S 1000 RR', 'S 1000 XR', 'R 1250 GS Adventure', 'R18', 'R 1250 RT'
+];
 
 const Filters = ({ onFilterChange }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +59,10 @@ const Filters = ({ onFilterChange }) => {
   };
 
   // Determine available models based on selected make
-  const availableModels = make === 'Yamaha' ? yamahaModels : [];
+  const availableModels = make === 'Yamaha' ? yamahaModels 
+                    : make === 'Honda' ? hondaModels
+                    : make === 'BMW' ? bmwModels
+                    : [];
 
   return (
     <>
