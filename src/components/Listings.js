@@ -8,7 +8,7 @@ const cars = [
     make: 'Yamaha',
     model: 'YZF R6',
     mileage: '34,253',
-    price: 14900,
+    price: 750000,
     image: 'https://news.webike.net/wp-content/uploads/2020/09/200908_YZF-R1.jpg',
   },
   {
@@ -16,7 +16,7 @@ const cars = [
     make: 'Honda',
     model: 'Click 125cc',
     mileage: 22412,
-    price: 950,
+    price: 47500,
     image: 'https://www.thmmotorcycles.com.ph/Materials/products/honda/scooters/329.png',
   },
 
@@ -25,7 +25,7 @@ const cars = [
   make: 'BMW',
   model: 'S 1000 R',
   mileage: '10,000',
-  price: 18500,
+  price: 950999,
   image: 'https://www.bmwpap.gr/image/cache/data/product/BMW/2023/S%201000%20RR/BLACK/bmw-s-1000-rr-black-1-1-2-1400x1200.jpg',
 },
   // Add more cars here...

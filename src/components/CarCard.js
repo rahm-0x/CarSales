@@ -10,7 +10,7 @@ const CarCard = ({ car }) => {
       />
       <h3 className="text-lg font-bold">{car.make} {car.model}</h3>
       <p>Mileage: {car.mileage} KM</p>
-      <p>Price: ${car.price}</p>
+      <p>Price: ₱ {car.price}</p>
       <button className="bg-blue-500 text-white mt-4 px-4 py-2 rounded-lg">
         Request Info
       </button>
